@@ -14,40 +14,40 @@ To answer this advice has been [added][4] to the HTML specification on how to ma
 
 **Note:** Example below added 10/5/2013
 
-> In the following example the title and subtitles of a web page are grouped using a `header` element. As the author does not want the subtitles to be included the table of contents and they are not intended to signify the start of a new section, they are marked up using p elements. A sample CSS styled rendering of the title and subtitles is provided below the code example.
+In the following example the title and subtitles of a web page are grouped using a `header` element. As the author does not want the subtitles to be included the table of contents and they are not intended to signify the start of a new section, they are marked up using p elements. A sample CSS styled rendering of the title and subtitles is provided below the code example.
 
->     <header>
->     <h1>HTML 5.1 Nightly</h1>
->     <p>A vocabulary and associated APIs for HTML and XHTML</p>
->     <p>Editor's Draft 9 May 2013</p>
->     </header>
+    <header>
+    <h1>HTML 5.1 Nightly</h1>
+    <p>A vocabulary and associated APIs for HTML and XHTML</p>
+    <p>Editor's Draft 9 May 2013</p>
+    </header>
 
-> ![Example1][Title:'HTML 5.1 Nightly' in a mid blue Sans Serif font. Subtitle 1:'A vocabulary and associated APIs for HTML and XHTML' on a new line, same style smaller font size. Subtitle 2:'Editor's Draft 9 May 2013' on a new line, same style and size as subtitle 1.]
+![Example1][Title:'HTML 5.1 Nightly' in a mid blue Sans Serif font. Subtitle 1:'A vocabulary and associated APIs for HTML and XHTML' on a new line, same style smaller font size. Subtitle 2:'Editor's Draft 9 May 2013' on a new line, same style and size as subtitle 1.]
 
-> In the following example the subtitle of a book is on the same line as the title separated by a colon.
+In the following example the subtitle of a book is on the same line as the title separated by a colon.
 
->     <h1>The Lord of the Rings: The Two Towers</h1>
+    <h1>The Lord of the Rings: The Two Towers</h1>
 
-> ![Example2][Title and subtitle:'The Lord of the Rings: The Two Towers' in a gold coloured Gothic style Serif font on a black background.]
+![Example2][Title and subtitle:'The Lord of the Rings: The Two Towers' in a gold coloured Gothic style Serif font on a black background.]
 
-> In the following example part of an album title is included in a `span` element, allowing it to be styled differently from the rest of the title.
+In the following example part of an album title is included in a `span` element, allowing it to be styled differently from the rest of the title.
 
->     <h1>The Mothers 
->     <span>Fillmore East - June 1971</span> 
->     </h1>
+    <h1>The Mothers 
+    <span>Fillmore East - June 1971</span> 
+    </h1>
 
-> ![Example3][Line 1:'The Mothers' displayed in a bold stencil style font. Line 2:'Fillmore East - June 1971' displayed in a free flowing hand writing style font.]
+![Example3][Line 1:'The Mothers' displayed in a bold stencil style font. Line 2:'Fillmore East - June 1971' displayed in a free flowing hand writing style font.]
 
-> In the following example the title and tagline for a news article are grouped using a header element. The title is marked up using a h2 element and the tagline is in a p element.
+In the following example the title and tagline for a news article are grouped using a header element. The title is marked up using a h2 element and the tagline is in a p element.
 
->     <header>
->     <h2>3D films set for popularity slide </h2>
->     <p>First drop in 3D box office projected for this year despite hotly tipped summer blockbusters, according to Fitch Ratings report</p>
->     </header>
+    <header>
+    <h2>3D films set for popularity slide </h2>
+    <p>First drop in 3D box office projected for this year despite hotly tipped summer blockbusters, according to Fitch Ratings report</p>
+    </header>
 
-> ![Example4][Title:'3D films set for popularity slide' in a large, bold, dark blue Serif font style. Paragraph: 'First drop in 3D box office projected for this year despite...' in a smaller, dark grey, Sans Serif font style.]
+![Example4][Title:'3D films set for popularity slide' in a large, bold, dark blue Serif font style. Paragraph: 'First drop in 3D box office projected for this year despite...' in a smaller, dark grey, Sans Serif font style.]
 
-> **Note:** Some have been [advocating][5] of the use of the `small` element to signify subtitles. This has been under [discussion][6] in the [HTML working group][7], but no compelling arguments for its use have been made. Therefore it is not advised to use `small` to mark up subtitles.
+**Note:** Some have been [advocating][5] of the use of the `small` element to signify subtitles. This has been under [discussion][6] in the [HTML working group][7], but no compelling arguments for its use have been made. Therefore it is not advised to use `small` to mark up subtitles.
 
 ## What about the document outline?
 
