@@ -16,11 +16,11 @@ To answer this advice has been [added][4] to the HTML specification on how to ma
 
 > In the following example the title and subtitles of a web page are grouped using a `header` element. As the author does not want the subtitles to be included the table of contents and they are not intended to signify the start of a new section, they are marked up using p elements. A sample CSS styled rendering of the title and subtitles is provided below the code example.
 
-    <header>
-    <h1>HTML 5.1 Nightly</h1>
-    <p>A vocabulary and associated APIs for HTML and XHTML</p>
-    <p>Editor's Draft 9 May 2013</p>
-    </header>
+>     <header>
+>     <h1>HTML 5.1 Nightly</h1>
+>     <p>A vocabulary and associated APIs for HTML and XHTML</p>
+>     <p>Editor's Draft 9 May 2013</p>
+>     </header>
 
 ![][]
 
