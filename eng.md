@@ -2,19 +2,26 @@
 
 If you don’t already know, the `hgroup` element is [obsolete][1] in [HTML5][2].
 
-Advice is now provided in the [HTML spec][3] on how to mark up subheadings, subtitles, alternative titles and taglines using existing and *implemented* HTML features.
+Advice is now provided in the [HTML spec][3] on how to mark up subheadings,
+subtitles, alternative titles and taglines using existing and *implemented* HTML
+features.
 
 ## Advice for marking up subheadings and the like
 
 The important question for developers is: **How do I mark up these buggers**???
 
-To answer this advice has been [added][4] to the HTML specification on how to mark up subheadings, subtitles, alternative titles and taglines:
+To answer this advice has been [added][4] to the HTML specification on how to
+mark up subheadings, subtitles, alternative titles and taglines:
 
-> **Note:** Do not use `h1–h6` elements to markup subheadings, subtitles, alternative titles and taglines unless they are intended to be the heading for a new section or subsection.
+> **Note:** Do not use `h1–h6` elements to markup subheadings, subtitles, 
+alternative titles and taglines unless they are intended to be the heading for a 
+new section or subsection.
 
-**Note:** Example below added 10/5/2013
-
-In the following example the title and subtitles of a web page are grouped using a `header` element. As the author does not want the subtitles to be included the table of contents and they are not intended to signify the start of a new section, they are marked up using p elements. A sample CSS styled rendering of the title and subtitles is provided below the code example.
+In the following example the title and subtitles of a web page are grouped using 
+a `header` element. As the author does not want the subtitles to be included the 
+table of contents and they are not intended to signify the start of a new 
+section, they are marked up using `p` elements. A sample CSS styled rendering of 
+the title and subtitles is provided below the code example.
 
     <header>
     <h1>HTML 5.1 Nightly</h1>
@@ -24,13 +31,15 @@ In the following example the title and subtitles of a web page are grouped using
 
 ![Example1][Title:'HTML 5.1 Nightly' in a mid blue Sans Serif font. Subtitle 1:'A vocabulary and associated APIs for HTML and XHTML' on a new line, same style smaller font size. Subtitle 2:'Editor's Draft 9 May 2013' on a new line, same style and size as subtitle 1.]
 
-In the following example the subtitle of a book is on the same line as the title separated by a colon.
+In the following example the subtitle of a book is on the same line as the title
+separated by a colon.
 
     <h1>The Lord of the Rings: The Two Towers</h1>
 
 ![Example2][Title and subtitle:'The Lord of the Rings: The Two Towers' in a gold coloured Gothic style Serif font on a black background.]
 
-In the following example part of an album title is included in a `span` element, allowing it to be styled differently from the rest of the title.
+In the following example part of an album title is included in a `span` element,
+allowing it to be styled differently from the rest of the title.
 
     <h1>The Mothers 
     <span>Fillmore East - June 1971</span> 
@@ -38,7 +47,9 @@ In the following example part of an album title is included in a `span` element,
 
 ![Example3][Line 1:'The Mothers' displayed in a bold stencil style font. Line 2:'Fillmore East - June 1971' displayed in a free flowing hand writing style font.]
 
-In the following example the title and tagline for a news article are grouped using a header element. The title is marked up using a h2 element and the tagline is in a p element.
+In the following example the title and tagline for a news article are grouped
+using a `header` element. The title is marked up using a h2 element and the
+tagline is in a p element.
 
     <header>
     <h2>3D films set for popularity slide </h2>
@@ -47,35 +58,65 @@ In the following example the title and tagline for a news article are grouped us
 
 ![Example4][Title:'3D films set for popularity slide' in a large, bold, dark blue Serif font style. Paragraph: 'First drop in 3D box office projected for this year despite...' in a smaller, dark grey, Sans Serif font style.]
 
-**Note:** Some have been [advocating][5] of the use of the `small` element to signify subtitles. This has been under [discussion][6] in the [HTML working group][7], but no compelling arguments for its use have been made. Therefore it is not advised to use `small` to mark up subtitles.
+**Note:** Some have been [advocating][5] of the use of the `small` element to 
+signify subtitles. This has been under [discussion][6] in the [HTML working 
+group][7], but no compelling arguments for its use have been made. Therefore it 
+is not advised to use `small` to mark up subtitles.
 
 ## What about the document outline?
 
-If you want a subtitle to be displayed in the *semi-mythical* [document outline][8], include it along with the heading text as per example 1 and 2 above. If you don’t, put the text in a p element (for example), as per example 3 above.
+If you want a subtitle to be displayed in the *semi-mythical* [document
+outline][8], include it along with the heading text as per example 1 and 2
+above. If you don’t, put the text in a p element (for example), as per example 3
+above.
 
 ## Questions for developers
 
-Does the advice in the spec cover the use cases you encounter? If not what other advice should the spec include? Are the examples clear and unambiguous? If not how could they be improved? Any other questions you have, ask away in the comments!
+Does the advice in the spec cover the use cases you encounter? If not what other
+advice should the spec include? Are the examples clear and unambiguous? If not
+how could they be improved? Any other questions you have, ask away in the
+comments!
 
-If you are really keen you can [join][9] the likes of Bruce Lawson, Ian Devlin and myself in the HTML working group and take part in discussion there.
+If you are really keen you can [join][9] the likes of Bruce Lawson, Ian Devlin
+and myself in the HTML working group and take part in discussion there.
 
 ## What being *obsolete* in HTML5 means
 
 > must not be used by authors
 
-`hgroup` like other [obsolete features][10],  is non-conforming. This means that a [conformance checker][11] displays an error if the `hgroup` element is found. The following is the error message displayed by the [W3C Markup Validation Service][12]:
+`hgroup` like other [obsolete features][10], is non-conforming. This means that 
+a [conformance checker][11] displays an error if the `hgroup` element is found. 
+The following is the error message displayed by the [W3C Markup Validation 
+Service][12]:
 
-> Error: The `hgroup` element is obsolete. To mark up subheadings, consider either just putting the subheading into a `p` element after the `h1-h6` element containing the main heading, or else putting the subheading directly within the `h1-h6` element containing the main heading, but separated from the main heading by punctuation and/or within, for example, a `span` element with differentiated styling. To group headings and subheadings, alternative titles, or taglines, consider using the `header` or `div` elements.
+> Error: The `hgroup` element is obsolete. To mark up subheadings, consider 
+either just putting the subheading into a `p` element after the `h1-h6` element 
+containing the main heading, or else putting the subheading directly within the 
+`h1-h6` element containing the main heading, but separated from the main heading 
+by punctuation and/or within, for example, a `span` element with differentiated 
+styling. To group headings and subheadings, alternative titles, or taglines, 
+consider using the `header` or `div` elements.
 
-Like for other [obsolete elements][13], browsers will continue their current level of support for `hgroup`. That is, browsers that have parsing and user agent style support will continue to do so, therefore authors that have used `hgroup` in their pages do not need to rush out and remove it. The element effectively has no meaning as its semantics have not been implemented. It’s effectively a `div` with a funny name.
+Like for other [obsolete elements][13], browsers will continue their current
+level of support for `hgroup`. That is, browsers that have parsing and user
+agent style support will continue to do so, therefore authors that have used
+`hgroup` in their pages do not need to rush out and remove it. The element
+effectively has no meaning as its semantics have not been implemented. It’s
+effectively a `div` with a funny name.
 
-The whys and wherefores
+## The whys and wherefores
 
-Much has been discussed and written over the past few years on the `hgroup` element and whether it meets the high bar required to include as a feature in HTML, on balance it has been decided it does not. Should this have happened more quickly? Yes , but as [Mike Smith][14] [stated recently][15]:
+Much has been discussed and written over the past few years on the `hgroup`
+element and whether it meets the high bar required to include as a feature in
+HTML, on balance it has been decided it does not. Should this have happened more
+quickly? Yes, but as [Mike Smith][14] [stated recently][15]:
 
-> People disagree. Organizations disagree. The task of us all working together to try to overcome our disagreements is time-consuming, often very frustrating, and almost never easy.
+> People disagree. Organizations disagree. The task of us all working together 
+to try to overcome our disagreements is time-consuming, often very frustrating, 
+and almost never easy.
 
-If you want to read up on the history of `hgroup` there is plenty of stuff available:
+If you want to read up on the history of `hgroup` there is plenty of stuff 
+available:
 
 ## HTML working group [mail archives][16] 2010 (tip of the iceberg):
 
@@ -93,7 +134,7 @@ If you want to read up on the history of `hgroup` there is plenty of stuff avail
 * [`hgroup` removed from the HTML5 specification][25]
 * [RIP HTML5 `hgroup` Element][26]
 
-[1]: http://html5doctor.com/howto-subheadings/#obsolete
+[1]: #what-being-obsolete-in-html5-means
 [2]: http://www.w3.org/html/wg/drafts/html/master/Overview.html
 [3]: http://www.w3.org/html/wg/drafts/html/master/common-idioms.html#sub-head
 [4]: http://www.w3.org/html/wg/drafts/html/master/common-idioms.html#sub-head
