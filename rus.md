@@ -53,7 +53,8 @@
 
     <header>
     <h2>3D films set for popularity slide </h2>
-    <p>First drop in 3D box office projected for this year despite hotly tipped summer blockbusters, according to Fitch Ratings report</p>
+    <p>First drop in 3D box office projected for this year despite hotly tipped 
+    summer blockbusters, according to Fitch Ratings report</p>
     </header>
 
 ![Пример4][Заголовок: «3D films set for popularity slide», большой жирный темно-синий шрифт с засечками. Абзац: «First drop in 3D box office projected for this year despite hotly tipped summer blockbusters, according to Fitch Ratings report», тёмно-серый шрифт без засечек меньшего размера.]
