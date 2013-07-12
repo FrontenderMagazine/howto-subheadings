@@ -118,7 +118,7 @@ and almost never easy.
 If you want to read up on the history of `hgroup` there is plenty of stuff
 available:
 
-## HTML working group [mail archives][16] 2010 (tip of the iceberg):
+## HTML working group mail archives 2010 (tip of the iceberg):
 
 * [suggestion for abolition of `hgroup` thread (November)][17]
 * [`hgroup` and ARIA outline thread][18]
